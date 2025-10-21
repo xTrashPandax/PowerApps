@@ -1,0 +1,17 @@
+Switch Statement
+Switch(
+    ThisItem.Status.Value,
+    "Approved", Color.Green,
+    "Pending", Color.Yellow,
+    "Rejected", Color.Red,
+    Color.Gray
+)
+
+Ex:
+Label.Fill = Switch(
+    ThisItem.Status.Value,
+    "Approved", RGBA(0,200,0,1),
+    "Pending", RGBA(255,200,0,1),
+    "Rejected", RGBA(255,0,0,1),
+    RGBA(200,200,200,1)
+)
