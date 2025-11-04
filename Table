@@ -1,0 +1,7 @@
+When making a dropdown for filtering a gallery by Choice column.
+
+Dropdown:
+Dropdown1.Items = Choices([@tbl_details].Milestone)
+
+Gallery:
+Gallery1.Items = Filter([@tbl_details], Milestone.Value = Dropdown1.Selected.Value)
