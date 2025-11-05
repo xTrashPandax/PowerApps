@@ -1,0 +1,17 @@
+#Switch Statement for Font Color
+
+Switch(ThisItem.Status.Value, 
+"Not Yet Started" ,RGBA(102, 102, 102,1),
+"Ongoing" ,RGBA(0, 104, 184,1),
+"On Hold" ,RGBA(163, 14, 49,1),
+"Completed" ,RGBA(67, 116, 19,1),
+"Checking" ,RGBA(3, 120, 124,1))
+
+#Switch  Statement for Fill Color          
+
+Switch(ThisItem.Status.Value, 
+"Not Yet Started" ,RGBA(229, 229, 229,1),
+"Ongoing" ,RGBA(212, 231, 246,1),
+"On Hold" ,RGBA(250, 187, 195,1),
+"Completed" ,RGBA(202, 240, 204,1),
+"Checking" ,RGBA(195, 248, 249,1))
