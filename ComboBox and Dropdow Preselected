@@ -1,0 +1,5 @@
+Property: DefaultSelectedItems
+
+Method 1: LookUp(Contacts, 'Full Name' = "John Doe")
+
+Method 2: { Id: 123, Value: "John Doe" } // Specific structure for SharePoint
